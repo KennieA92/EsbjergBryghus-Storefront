@@ -1,0 +1,49 @@
+body {
+}
+
+.carousel {    
+    position: relative;
+    margin-top: -86px;
+    height: 50vh;
+}
+.carousel-inner{
+    height: 50vh;    
+}
+.carousel-item {
+    padding-top: 86px;
+    height: 100%;    
+backdrop-filter: brightness(60%);
+-webkit-backdrop-filter: brightness(60%);    
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 40vh;
+    filter: brightness(75%);
+    overflow: hidden;
+}
+
+.carousel-item img:hover{
+    filter: brightness(100%);   
+    transform:scale(1.1); 
+    transition: all 0.5s ease;
+}
+
+.banner-container{
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+.banner-container h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+a {
+
+    font-size: 1vw;
+    font-weight: 500;
+    text-decoration: none !important;
+}
