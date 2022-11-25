@@ -22,6 +22,9 @@ Updated: 2022-11-24 12:56:59
   .site-header {
     padding: 0;
     margin: 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
   }
   
   /* Header CSS */
@@ -167,4 +170,100 @@ Updated: 2022-11-24 12:56:59
     }
   /* Body CSS */
   
+  .content-area {
+    padding: 2vh 3vw;
+    
+}
+
+.site-footer {
+    background: #0a0a0a;
+    color: #fefefe;
+}
+
+.cart-contents .woocommerce-Price-amount {
+    color: #fefefe;
+}
+
+.count {
+    color: #f3f3f3;
+}
+
+.content-area .col-full {
+    padding-top: 5vh;
+    padding: 5vh 3vw;
+    width: 100%;
+    background: #fefefe;
+}
+
+#customer_details .col-1, .col-2 {
+    width: 100%;
+}
+
+
+.woocommerce-cart .content-area {
+  margin: auto;
+  float: none;
+}
+.single-product .content-area{
+  margin: auto;
+ float: none;
+}
+.woocommerce-checkout .content-area{
+ margin: auto;
+ float: none;
   
+}
+.woocommerce-account .content-area{
+  margin: auto;
+  float: none;
+   
+ }
+
+ .tax-product_cat .content-area{
+  margin: auto;
+  float: none;
+   
+ }
+
+ .woocommerce-shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+ }
+
+ .woocommerce-shop .content-area {
+  order: 3;
+ }
+
+
+
+ .woocommerce-shop .widget-area {
+  padding: 3vw;
+  margin: 0;
+  background: #fefefe;
+  order: 2;
+  border-right: dashed 1px #303133;
+}
+
+@media screen and (max-width: 768px) {
+  .woocommerce-shop .widget-area {
+    border: none;
+    border-bottom: solid 1px #303133;
+  }
+}
+  
+  
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.widget a.button {
+    background: #1a1a1a;
+    color: #fefefe;
+}
+
+

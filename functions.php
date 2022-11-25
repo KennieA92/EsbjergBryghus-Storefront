@@ -79,3 +79,11 @@ function custom_main_js()
 }
 
 add_action('wp_enqueue_scripts', 'custom_main_js');
+
+function remove_storefront_sidebar()
+{
+    if (is_checkout() || is_cart() || is_product() || is_account_page() || is_product_category() || is_product_tag()) {
+        remove_action('storefront_sidebar', 'storefront_get_sidebar', 10);
+    }
+}
+add_action('get_header', 'remove_storefront_sidebar');

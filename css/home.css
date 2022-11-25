@@ -1,6 +1,10 @@
 body {
 }
 
+#masthead{
+    margin:0;
+}
+
 .carousel {    
     position: relative;
     margin-top: -86px;
@@ -10,7 +14,7 @@ body {
     height: 50vh;    
 }
 .carousel-item {
-    padding-top: 86px;
+    padding-top: 90px;
     height: 100%;    
 backdrop-filter: brightness(60%);
 -webkit-backdrop-filter: brightness(60%);    
@@ -18,7 +22,7 @@ backdrop-filter: brightness(60%);
 
 .carousel-item img {
     object-fit: cover;
-    height: 40vh;
+    max-height: 42vh;
     filter: brightness(75%);
     overflow: hidden;
 }
@@ -32,7 +36,6 @@ backdrop-filter: brightness(60%);
 .banner-container{
     color: white;
     text-align: center;
-    height: 30px;
 }
 
 .banner-container h1{
