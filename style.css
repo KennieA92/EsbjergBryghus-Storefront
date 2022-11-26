@@ -22,6 +22,10 @@ Updated: 2022-11-24 12:56:59
   padding: 0;
 }
 
+a:focus {
+  outline: none;
+}
+
 .site-header {
   padding: 0;
   margin: 0;
