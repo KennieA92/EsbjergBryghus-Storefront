@@ -82,19 +82,20 @@ add_action('wp_enqueue_scripts', 'custom_main_js');
 
 // Hook ,need to find out why it doesnt work
 
-// function add_section_before_products()
-// {
-//     echo '<section class="section-before-products">';
-//     echo '<div class="container">';
-//     echo '<div class="row">';
-//     echo '<div class="col-md-12">';
-//     echo '<h2>Our Products</h2>';
-//     echo '</div>';
-//     echo '</div>';
-//     echo '</div>';
-//     echo '</section>';
-// }
-// add_action('storefront_before_content', 'add_section_before_products', 10);
+function add_section_before_products()
+{
+    echo '<section class="section-before-products">';
+    echo '<div class="container">';
+    echo '<div class="row">';
+    echo '<div class="col-md-12">';
+    echo '<h2>Our Products</h2>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '</section>';
+
+} 
+    add_action('woocommerce_before_shop_loop', 'add_section_before_products', 10);
 
 function remove_storefront_sidebar()
 {
