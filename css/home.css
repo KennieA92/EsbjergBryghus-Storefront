@@ -7,22 +7,20 @@ body {
 
 .carousel {    
     position: relative;
-    margin-top: -86px;
-    height: 50vh;
+    height: 33vw;
 }
 .carousel-inner{
-    height: 50vh;    
+    height: 33vw;    
 }
 .carousel-item {
-    padding-top: 90px;
     height: 100%;    
 backdrop-filter: brightness(60%);
 -webkit-backdrop-filter: brightness(60%);    
 }
 
 .carousel-item img {
-    object-fit: cover;
-    max-height: 42vh;
+    object-fit: contain;
+    height: 100%;
     filter: brightness(75%);
     overflow: hidden;
 }
@@ -38,10 +36,11 @@ backdrop-filter: brightness(60%);
     text-align: center;
 }
 
-.banner-container h1{
+.banner-container p{
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.1em;
+    line-height: normal;
 }
 
 a {
@@ -50,3 +49,87 @@ a {
     font-weight: 500;
     text-decoration: none !important;
 }
+
+.site-info-item{
+    height: 25vw;
+    border: white 0.5px solid;
+}
+.site-info-img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(45%);
+    overflow: hidden;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.site-info-item h1{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#subscription-section{
+    background-color: #303133;    
+    color: white;
+}
+
+#subscription-section h1{
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+#mc_embed_signup{
+    background: none;    
+    font: 14px Helvetica,Arial,sans-serif;
+}
+
+#mc-embedded-subscribe-form{
+    
+    box-shadow: inset 0px 0px 0 10px #cf2e2e;
+}
+
+#mc_embed_signup input[type=text], input[type=number], input[type=email], input[type=tel], input[type=url], input[type=password], input[type=search], textarea, .input-text {
+    outline: none;
+    border: none;
+}
+
+#mce-EMAIL:focus{
+    outline: none;
+}
+
+.subscription-logo{
+    height: 100%;
+}
+
+.brand-name{
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        height: 100%;
+    }
+    .carousel-inner {
+        height: 60vh;
+    }
+    .carousel-item {
+        height: 100%;
+        
+    }
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        filter: brightness(0.40);
+    }
+}
+    
