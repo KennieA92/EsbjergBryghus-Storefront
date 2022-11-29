@@ -1,136 +1,144 @@
 body {
 }
 
-#masthead{
-    margin:0;
+#masthead {
+  margin: 0;
 }
 
-.carousel {   
-    margin-top: -86px; 
-    position: relative;
-    height: 42vw;
+.carousel {
+  margin-top: -86px;
+  position: relative;
+  height: 42vw;
 }
-.carousel-inner{
-    height: 42vw;    
+.carousel-inner {
+  height: 42vw;
 }
 .carousel-item {
-    padding-top: 86px;
-    height: 100%;    
-backdrop-filter: brightness(60%);
--webkit-backdrop-filter: brightness(60%);    
+  padding-top: 86px;
+  height: 100%;
+  backdrop-filter: brightness(60%);
+  -webkit-backdrop-filter: brightness(60%);
 }
 
 .carousel-item img {
-    object-fit: contain;
-    height: 100%;
-    filter: brightness(100%);
-    overflow: hidden;
+  object-fit: contain;
+  height: 100%;
+  filter: brightness(100%);
+  overflow: hidden;
 }
 
-.carousel-item img:hover{
-    filter: brightness(100%);   
-    transform:scale(1.1); 
-    transition: all 0.5s ease;
+.carousel-item img:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
-.banner-container{
-    color: white;
-    text-align: center;
+.banner-container {
+  color: white;
+  text-align: center;
 }
 
-.banner-container p{
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    line-height: normal;
+.banner-container p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: normal;
 }
 
 a {
-
-    font-size: 1vw;
-    font-weight: 500;
-    text-decoration: none !important;
+  font-size: 1vw;
+  font-weight: 500;
+  text-decoration: none !important;
 }
 
-.site-info-item{
-    height: 25vw;
-    border: white 0.5px solid;
+.site-info-item {
+  height: 25vw;
+  border: white 0.5px solid;
+  overflow: hidden;
 }
-.site-info-img{
-    height: 100%;
-    width: 100%;
-    filter: brightness(35%);
-    overflow: hidden;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+.site-info-img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(35%);
+  overflow: hidden;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: all 0.5s ease;
 }
-
-.site-info-item h1{
-    position: absolute;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-align: center;
+.site-info-img:hover {
+  scale: 1.1;
+  overflow: hidden;
 }
 
-#subscription-section{
-    background-color: #303133;    
-    color: white;
+.site-info-item h1 {
+  position: absolute;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 
-#subscription-section h1{
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: white;
+#subscription-section {
+  background-color: #303133;
+  color: white;
 }
 
-#mc_embed_signup{
-    background: none;    
-    font: 14px Helvetica,Arial,sans-serif;
+#subscription-section h1 {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: white;
 }
 
-#mc-embedded-subscribe-form{
-    
-    box-shadow: inset 0px 0px 0 10px #cf2e2e;
+#mc_embed_signup {
+  background: none;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 
-#mc_embed_signup input[type=text], input[type=number], input[type=email], input[type=tel], input[type=url], input[type=password], input[type=search], textarea, .input-text {
-    outline: none;
-    border: none;
+#mc-embedded-subscribe-form {
+  box-shadow: inset 0px 0px 0 10px #cf2e2e;
 }
 
-#mce-EMAIL:focus{
-    outline: none;
+#mc_embed_signup input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea,
+.input-text {
+  outline: none;
+  border: none;
 }
 
-.subscription-logo{
-    height: 100%;
+#mce-EMAIL:focus {
+  outline: none;
 }
 
-.brand-name{
-    font-size: 1.2rem;
+.subscription-logo {
+  height: 100%;
 }
 
-
+.brand-name {
+  font-size: 1.2rem;
+}
 
 @media screen and (max-width: 768px) {
-    .carousel {
-        height: 100%;
-    }
-    .carousel-inner {
-        height: 60vh;
-    }
-    .carousel-item {
-        height: 100%;
-        
-    }
-    .carousel-item img {
-        height: 100%;
-        object-fit: cover;
-        object-position: top center;
-    }
+  .carousel {
+    height: 100%;
+  }
+  .carousel-inner {
+    height: 60vh;
+  }
+  .carousel-item {
+    height: 100%;
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
 }
-    

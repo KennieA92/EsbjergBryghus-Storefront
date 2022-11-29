@@ -22,6 +22,14 @@ Updated: 2022-11-24 12:56:59
   padding: 0;
 }
 
+a {
+  color: #cf2e2e;
+}
+
+.button {
+  background: #cf2e2e !important;
+}
+
 a:focus {
   outline: none;
 }
@@ -295,4 +303,11 @@ input[type='submit'],
     width: 100%;
     padding: 50px 100px 0 100px;
   }
+}
+
+/* WooCommerce Checkout & Cart */
+
+.woocommerce-info {
+  background-color: #cf2e2e;
+  color: #fefefe;
 }
