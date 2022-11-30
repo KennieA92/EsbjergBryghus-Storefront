@@ -177,6 +177,21 @@ a:focus {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.banner {
+  background-color: #cf2e2e;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.banner-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
 /* Body CSS */
 
 .content-area {
@@ -266,6 +281,10 @@ input[type='submit'],
   color: #fefefe;
 }
 
+.fourohfour-columns-2 .col-1{
+  width: 100%;
+}
+
 /* Products */
 #secondary {
   background-color: #333;
@@ -315,6 +334,7 @@ input[type='submit'],
 /* Footer */
 footer {
   order: 4;
-  background-color: #cf2e2e !important;
+  background-color: #303133 !important;
   width: 100%;
 }
+

@@ -1,7 +1,7 @@
 <?php wp_footer(); ?>
 <footer class="text-center text-lg-start  text-white">
   <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-top">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
@@ -42,11 +42,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase text-white fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            Esbjerg Bryghus
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            A local brewery with a passion for beer. We brew our own beer and sell it in our own shop.
           </p>
         </div>
         <!-- Grid column -->
@@ -58,16 +57,15 @@
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="/shop" class="text-reset">Shop</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="/product-category/beer" class="text-reset">Beer</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="/product-category/merchandise" class="text-reset">Merchandise</a>
           </p>
           <p>
-            <a 
-</body>
+            <a </body>
 
-</html>
+              </html>
