@@ -5,6 +5,16 @@ if (!defined('ABSPATH')) exit;
 // BEGIN ENQUEUE PARENT ACTION
 // AUTO GENERATED - Do not modify or remove comment markers above or below:
 
+    function my_stylized_header_before()
+    {
+
+        
+        if (!is_shop()) :
+            echo '<div class="banner d-flex justify-content-center align-items-center col-12 p-2 text-center"> <a class="banner-text" href="/shop"> Take advantage of our Sales and get free delivery with your order, when you purchase for more than <span class="banner-price"> 500 kr.</span> </a> </div>';
+        endif;
+    }
+    add_action('get_header', 'my_stylized_header_before', 5);
+
 if (!function_exists('chld_thm_cfg_locale_css')) :
     function chld_thm_cfg_locale_css($uri)
     {
@@ -96,6 +106,22 @@ function add_section_before_products()
 
 } 
     add_action('woocommerce_before_shop_loop', 'add_section_before_products', 10);
+
+// Hook to add footer
+// function add_footer()
+// {
+//     echo '<footer>';
+//     echo '<div class="container">';
+//     echo '<div class="row">';
+//     echo '<div class="col-md-12">';
+//     echo '<h2>Footer</h2>';
+//     echo '</div>';
+//     echo '</div>';
+//     echo '</div>';
+//     echo '</footer>';
+// }
+// add_action('wp_footer', 'add_footer', 10);
+
 
 function remove_storefront_sidebar()
 {

@@ -29,7 +29,7 @@
         </button>
     </div>
 </section>
-<section id="banner-section">
+<!-- <section id="banner-section">
     <?php $bannerLoop = new WP_Query(array("post_type" => "banner", "posts_per_page" => 1, "order" => 'ASC')) ?>
     <?php while ($bannerLoop->have_posts()) : $bannerLoop->the_post() ?>
         <a href="<?php the_field("banner_link") ?>">
@@ -38,7 +38,7 @@
             </div>
         </a>
     <?php endwhile ?>
-</section>
+</section> -->
 <section id="site-info-section">
     <div class="site-info-container my-2 d-flex col-12 flex-wrap justify-content-center align-items-center flex-md-nowrap">
         <?php $siteInfoContainerLoop = new WP_Query(array("post_type" => "site_info_container", "posts_per_page" => -1, "order" => 'ASC')) ?>
@@ -63,18 +63,18 @@
           align-items-center
           flex-column
         " target="_blank" novalidate>
-            <h1 class="col-12 pt-3">Subscribe for News!</h1>
-            <div class="d-flex col-11 align-items-start">
-                <img class="subscription-logo col-1" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logoroed.png" alt="Esbjerg Bryghus Logo" />
-                <div class="
-              brand-name
-              d-flex
-              flex-column
-              align-self-center             
-              justify-content-center
-            ">
-                    <p class="mb-0">Esbjerg Bryghus</p>
-                </div>
+            <h1 class="col-12 p-3">Subscribe for News!</h1>
+            <div class="d-flex col-11 align-items-center   ">
+                <img class="subscription-logo col-1 align-items-center m-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logoroed.png" alt="Esbjerg Bryghus Logo" />
+            </div>
+            <div class="
+        
+          brand-name
+          d-flex
+          flex-column
+          align-self-center             
+          justify-content-center
+        "><h3 class="text-white pt-2">Esbjerg Bryghys</h3>
             </div>
             <div class="
             subscription-container

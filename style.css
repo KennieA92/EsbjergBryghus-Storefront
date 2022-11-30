@@ -147,7 +147,7 @@ a:focus {
   left: 0px;
   width: 24px;
   height: 2px;
-  background: #303133;
+  background: #fff;
   transition: all 0.5s;
 }
 .hamburger-top {
@@ -310,4 +310,11 @@ input[type='submit'],
 .woocommerce-info {
   background-color: #cf2e2e;
   color: #fefefe;
+}
+
+/* Footer */
+footer {
+  order: 4;
+  background-color: #cf2e2e !important;
+  width: 100%;
 }

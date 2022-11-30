@@ -1,6 +1,3 @@
-body {
-}
-
 #masthead {
   margin: 0;
 }
@@ -33,20 +30,7 @@ body {
   transition: all 0.5s ease;
 }
 
-.banner-container {
-  color: white;
-  text-align: center;
-}
-
-.banner-container p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  line-height: normal;
-}
-
 a {
-  font-size: 1vw;
   font-weight: 500;
   text-decoration: none !important;
 }
@@ -68,7 +52,6 @@ a {
 }
 .site-info-img:hover {
   scale: 1.1;
-  overflow: hidden;
 }
 
 .site-info-item h1 {
@@ -97,10 +80,6 @@ a {
   font: 14px Helvetica, Arial, sans-serif;
 }
 
-#mc-embedded-subscribe-form {
-  box-shadow: inset 0px 0px 0 10px #cf2e2e;
-}
-
 #mc_embed_signup input[type='text'],
 input[type='number'],
 input[type='email'],
@@ -112,6 +91,7 @@ textarea,
 .input-text {
   outline: none;
   border: none;
+  margin: 20px;
 }
 
 #mce-EMAIL:focus {
@@ -141,4 +121,18 @@ textarea,
     object-fit: cover;
     object-position: top center;
   }
+}
+
+.banner {
+  background-color: #cf2e2e;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.banner-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
