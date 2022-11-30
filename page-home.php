@@ -74,7 +74,8 @@
           flex-column
           align-self-center             
           justify-content-center
-        "><h3 class="text-white pt-2">Esbjerg Bryghys</h3>
+        ">
+                <h3 class="text-white pt-2">Esbjerg Bryghys</h3>
             </div>
             <div class="
             subscription-container

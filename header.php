@@ -16,7 +16,7 @@
       justify-content-between
     ">
         <div class="nav-left">
-            <a class="navbar-brand d-flex align-items-center" href="/home"><img id="logoimg" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logohvid.png" alt=""></a>
+            <a class="navbar-brand d-flex align-items-center" href="/eb/home"><img id="logoimg" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logohvid.png" alt=""></a>
         </div>
         <div class="nav-right d-none d-md-flex">
             <?php wp_nav_menu(
