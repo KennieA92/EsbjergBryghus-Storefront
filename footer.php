@@ -57,13 +57,13 @@
             Products
           </h6>
           <p>
-            <a href="/shop" class="text-reset">Shop</a>
+            <a href="/eb/shop" class="text-reset">Shop</a>
           </p>
           <p>
-            <a href="/product-category/beer" class="text-reset">Beer</a>
+            <a href="/eb/product-category/beer" class="text-reset">Beer</a>
           </p>
           <p>
-            <a href="/product-category/merchandise" class="text-reset">Merchandise</a>
+            <a href="/eb/product-category/merchandise" class="text-reset">Merchandise</a>
           </p>
           <p>
             <a </body>
